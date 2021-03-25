@@ -9,10 +9,26 @@
 </head>
 <body>
 
+  
+
+    <a-asset-item id="glbModel" src="./zombietest2.glb"></a-asset-item>
+
+
+
+
+
     <a-scene stats>
         <a-entity camera look-controls position="0 1.5 0">
             <a-cursor></a-cursor>
         </a-entity>
+
+        <a-entity id='zombie' gltf-model="#glbModel"
+          position="0 1 -4"
+          material="color:green;"
+          
+></a-entity> 
+
+
     </a-scene>
     
 </body>
